@@ -1,0 +1,1089 @@
+
+
+
+/*
+==========================================
+  00. Basic Css
+==========================================
+*/
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+h1, h2, h3 , h4, h5{
+    color: #2D4059;
+    font-family: 'Jost', sans-serif;
+    color: #2D4059;
+}
+
+a,
+i,
+button,
+img,
+span,
+*:before,
+*:after {
+  -webkit-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+button:focus {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+
+a:focus {
+  color: inherit;
+  outline: medium none;
+  transform: scale(1);
+  text-decoration: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-ptb{
+    padding:5rem 0; 
+}
+
+.bg-light-green{
+    background: #EFF7FF;
+}
+
+.bg-green{
+    background: #3399FF;
+}
+
+video{
+    max-width: 100%;
+}
+
+/*
+==========================================
+  01. Navbar Css
+==========================================
+*/
+
+.navbar-nav .nav-link{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color: #2D4059;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.navbar-nav .nav-link.custom-btn,
+.custom-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3399FF;
+    border-radius: 1rem;
+    padding: 1.2rem 2.4rem;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    display: inline-block;
+    transition: .5s;
+}
+
+.navbar-nav .nav-link.custom-btn:hover,
+.custom-btn:hover{
+    color:#fff;
+    background:#157ee8;
+}
+
+
+#f-header.fixed-nav {
+    box-shadow: 0 13px 22px -5px rgba(0,0,0,.06);
+    background: #fff;
+    padding: 1rem 0 !important;
+}
+
+/*
+==========================================
+  02. Banner Content Css
+==========================================
+*/
+
+.banner-area {
+    padding-top: 15rem;
+}
+
+.banner-content {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-content h2 {
+    font-size: 5.5rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    line-height: 6.5rem;
+}
+
+.banner-content p {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.8rem;
+    margin: 1rem 0px;
+}
+
+.protifolyer-overview {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+/*
+==========================================
+  03. why-us-fearures  Css
+==========================================
+*/
+
+.why-us-fearures .explore-features {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.why-us{
+    background-image: url(../img/front-end/bg-pattern.png);
+    background-color: #3399FF;
+    padding: 5rem 10rem;
+    border-radius: 4px;
+}
+
+.why-us h2 {
+    color: #fff;
+    font-size: 4.8rem;
+    text-align: center;
+    width: 76%;
+    margin: auto;
+    font-weight: 600;
+}
+
+
+.why-us p {
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0px 9rem;
+}
+
+.features-area {
+    padding-top: 5rem;
+}
+
+.sec-title {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.sec-title>h2 ,
+.features-area>h2 {
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.sec-title ,
+.features-area>h2 {
+    margin-bottom: 4rem;
+}
+
+.sec-title>p {
+    color: #fff;
+}
+
+
+.features-single {
+    text-align: center;
+    padding: 0 5rem;
+    margin-bottom: 4rem;
+}
+
+.features-single img {
+    width: 55px;
+}
+
+.features-single h3 {
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.features-single p {
+    color: #686D76;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.explore-features {
+    text-align: center;
+    display: block;
+}
+.explore-features a{
+    text-decoration: underline;
+    font-size: 1.8rem;
+    color: #3399FF;
+    font-family: 'Jost';
+}
+.video-carousel .owl-nav button {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #A9A9A9 !important;
+    border-radius: 100% !important;
+}
+
+.video-carousel .owl-nav button span {
+    color: #A9A9A9;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.video-carousel .owl-nav button:hover,
+.video-carousel .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+    border-color: #3399FF !important;
+}
+.video-carousel .owl-nav button:hover span{
+    color: #3399FF !important;
+}
+
+/*
+==========================================
+  04. FAQ Css
+==========================================
+*/
+#accordion .card {
+    border:1px solid #DBDBDB;
+}
+#accordion .card-header,
+#accordion .card-body {
+    background: #EFF7FF;
+    padding: 0;
+    border: none;
+}
+#accordion .card-header h5,
+#accordion .card-body{
+    padding: 2rem 2rem;
+}
+#accordion .card-header h5 {
+    font-size: 2rem;
+    font-family: 'Jost', sans-serif;
+    color: #2D4059;
+    cursor: pointer;
+}
+#accordion .card-body{
+    border-top: 1px solid #DBDBDB
+}
+
+.title-widget-inner,
+.faq-area #accordion {
+    width: 70%;
+    margin: auto;
+}
+#accordion .card-body p {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+}
+#accordion .card-header h5{
+    position: relative;
+}
+#accordion .card-header h5[aria-expanded="true"]{
+    color: #3399FF;
+}
+#accordion .card-header h5:after {
+    position: absolute;
+    top: 27%;
+    right: 2rem;;
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f107";
+    color: #000;
+    font-weight:900;
+}
+#accordion .card-header h5[aria-expanded="true"]:after{
+    content: "\f106";
+}
+
+/*
+==========================================
+  05. Title-widget Css
+==========================================
+*/
+.title-widget {
+    padding: 10rem 0;
+}
+
+.title-widget-inner{
+    text-align:center;
+}
+
+.title-widget-inner>h2{
+    font-size: 4rem;
+}
+.title-widget-inner>p{
+    font-size: 3rem;
+    font-family: 'Jost', sans-serif;
+    color: #3399FF;
+    margin: 1.4rem 0 4rem;
+}
+.title-widget-inner>a{
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    background: #3399FF;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 1.9rem;
+}
+
+
+/*
+==========================================
+  06. Footer social Css
+==========================================
+*/
+.footer-social>p {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+
+.footer-social-wrap a {
+    color: #000;
+    font-size: 2rem;
+    margin-right: .6rem;
+}
+
+.footer-social-wrap a:last-child{
+    margin-right: 0;
+}
+.footer-single>h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.footer-single ul li {
+    margin-bottom: 1rem;
+}
+.footer-single ul li:last-child{
+    margin-bottom:0;
+}
+
+.footer-single ul li a {
+    color: #686D76;
+    font-size: 1.7rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid #CCCCCC;
+    padding-top: 3rem;
+    margin-top: 3rem;
+}
+
+.footer-bottom p a {
+    color: #2D4059;
+}
+.footer-bottom p {
+    color: #2D4059;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom ul li a {
+    color: #686D76;
+    padding: 0 14px;
+    font-size: 1.5rem;
+}
+
+.footer-bottom ul li{
+    position: relative;
+}
+.footer-bottom ul li:after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #686d76b5;
+    right: -6px;
+    top: 12px;;
+}
+
+.footer-bottom ul li:last-child:after{ 
+    display: none;
+}
+
+#f-header.fixed-nav {
+    box-shadow: 0 13px 22px -5px rgba(0,0,0,.06);
+}
+
+/*
+==========================================
+  06. Testimonial Css
+==========================================
+*/
+.testimonial-single-quote {
+    background: #fff;
+    padding: 4rem 2rem 5rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.testimonial-carousel .owl-item.active {
+    opacity: .6;
+}
+
+.testimonial-area .owl-item.active.center {
+    opacity: 1;
+    position: relative;
+    z-index: 999;
+    transform: scale(1.2, 1.2);
+    margin-top: 8px;
+}
+
+.testimonial-carousel .owl-stage{
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.testimonial-single-quote:after{
+    position: absolute;
+    top: 10px;
+    left: 43%;
+    content: url(../img/front-end/quote.png);
+    font-size: 5rem;
+    color: #3399FF;
+}
+
+.testimonial-single-quote p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000;
+    z-index: 999;
+    position: relative;
+    line-height: 2.2rem;
+}
+.testimonial-area .owl-carousel .owl-item img {
+    width: 60px;
+    border-radius: 100%;
+    margin: -3rem auto 0;
+    z-index: 99;
+    position: relative;
+}
+
+.testimonial-client {
+    text-align: center;
+}
+
+.testimonial-client>h3 {
+    color: #Fff;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.testimonial-client>p {
+    color: #E7E7E7;
+    font-size: 1.2rem;
+}
+
+
+/*
+==========================================
+  07. Video carousel Css
+==========================================
+*/
+
+.testimonial-area {
+    padding-bottom: 15rem;
+}
+
+.video-carousel {
+    width: 40%;
+    margin: auto;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.testimonial-video {
+    margin-top: -12rem;
+    padding-bottom: 10rem;
+}
+
+
+
+
+
+/*
+==========================================
+  08. Pricing page Css
+==========================================
+*/
+.page-title {
+    padding: 17rem 0 5rem 0;
+}
+
+.page-title-inner {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.page-title-inner h2 {
+    font-size: 4.8rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.page-title-inner p {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    margin-top: 1rem;
+}
+
+.pricing-single {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+    background-image: url(../img/front-end/pricing-bg.png);
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+
+.pricing-heading h3 {
+    font-size: 1.8rem;
+}
+
+.pricing-heading h2 {
+    font-size: 4.8rem;
+    color: #39f;
+    border-bottom: 1px solid #D4EAFF;
+    width: 80%;
+    margin: 1.5rem auto 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.pricing-heading h2 span{
+    font-size: 2.2rem;
+    position: relative;
+    left: -10px;
+}
+
+.pricing-single ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing-single ul li a {
+    color: #686D76;
+    font-size: 1.5rem;
+}
+
+.pricing-btn {
+    background: #39f;
+    color: #fff;
+    display: block;
+    padding: 1rem;
+    border-radius: 4px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 4rem;
+}
+
+.pricing-single:hover {
+    background-color: #3399ff;
+    border-color: #3399ff;
+}
+
+.pricing-single:hover ul li a,
+.pricing-single:hover h3,
+.pricing-single:hover h2 {
+    color: #fff;
+}
+
+
+.pricing-single:hover .pricing-btn{
+    background: #fff;
+    color: #3399FF;
+}
+
+
+
+/*
+==========================================
+  09. FAQ page Css
+==========================================
+*/
+#accordion.faqs .card-header,
+#accordion.faqs .card-body {
+    background: #fff;
+}
+/*
+==========================================
+  10. Contact page Css
+==========================================
+*/
+
+.contact-form .row{
+    margin-bottom: 2rem;
+}
+
+.contact-form .row textarea,
+.contact-form .row input {
+    padding: 2.3rem 1rem;
+    font-size: 1.4rem;
+}
+
+.contact-form .row textarea{
+    padding: 1rem;
+}
+
+/*
+==========================================
+  11. Features page Css
+==========================================
+*/
+.features-tab .nav-pills{
+    width: 30%;
+    border-radius: 10px 0px 0px 10px;
+    background: #3399FF;
+    padding: 5rem 0;
+}
+.features-tab .tab-content {
+    width: 70%;
+    border-radius: 0 10px 10px 0 !important;
+    border: 1px solid #ccc;
+    border-left: none;
+    background: #eff7ff;
+}
+
+.features-tab .nav-pills a {
+    margin: 0 3rem 0 0px;
+    padding: .8rem 4rem;
+    color: #fff;
+    font-family: 'Jost';
+}
+
+.features-tab .nav-pills .nav-link.active, 
+.features-tab .nav-pills .show>.nav-link {
+    border-radius: 0px 32px 32px 0px;
+    background: #fff;
+    color: #000;
+}
+
+.features-tab .tab-content>.active {
+    display: block;
+    padding: 5rem;
+}
+
+/*
+==========================================
+  12. Serch
+==========================================
+*/
+.search {
+    width: 60%;
+    margin: 2rem auto 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.search input {
+    width: 100%;
+    padding: 1rem 5rem 1rem 2rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+.search button {
+    position: absolute;
+    width: 40px;
+    height: 92%;
+    right: 2px;
+    top: 2px;
+    background: #3399FF;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+/*
+==========================================
+  13. Support single
+==========================================
+*/
+
+.support-area{
+    padding: 5rem 0 2rem 0;
+}
+.support-single {
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 2rem 0rem;
+    margin-bottom: 3rem;
+    transition: .5s;
+    display: block;
+}
+
+.support-single:hover{
+    border-color: #3399FF;
+}
+
+.support-single > h3 {
+    font-size: 2.4rem;
+    margin-top: 1.4rem;
+    text-decoration: none;
+}
+
+
+.support-widget {
+    width: 50%;
+}
+
+.support-widget > p {
+    font-size: 1.7rem;
+}
+.support-widget a {
+    background: #fff;
+    color: #3399FF;
+}
+.support-widget a:hover{
+    color: #fff;
+    background: #127ce6;
+}
+
+.about-video-carousel .owl-nav button {
+    background-color: #fff !important;
+}
+
+.about-video-carousel  .owl-nav button:hover {
+    background: white !important;
+    border-color: #3399FF !important;
+}
+
+/*
+==========================================
+  14. Review Nav single
+==========================================
+*/
+.review-nav {
+    padding: 3rem 0 0;
+}
+.review-nav li {
+    padding: 0rem 2rem;
+}
+
+.text-review-single {
+    border: 1px solid #C4C4C4;
+    padding: 4rem 3rem;
+    border-radius: 4px;
+    position: relative;
+        margin-bottom: 4rem;
+}
+.text-review-single:after {
+    position: absolute;
+    top: 10px;
+    left: 43%;
+    content: url(../img/front-end/quote.png);
+    font-size: 5rem;
+    color: #3399FF;
+}
+
+.text-review-single > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.text-review-single p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    position: relative;
+    z-index: 9;
+}
+.text-review-single > h4 {
+    color: #3399FF;
+    font-size: 2rem;
+}
+
+.text-review-single > span {
+    color: #686D76;
+    font-size: 1.4rem;
+}
+
+.review-title {
+    margin-bottom: 2rem;
+}
+
+
+
+
+/*
+==========================================
+  15. Blog page design
+==========================================
+*/
+.blog-single {
+    margin-bottom: 5rem;
+}
+.preview-wrap {
+    position: relative;
+}
+.preview-wrap img {
+    width: 100%;
+}
+
+
+
+.blog-content {
+    background: #fff;
+    border: 2rem solid #eff7ff;
+    z-index: 99;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: -50px;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+
+.blog-sidebar {
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #e8f0fe;
+    margin-bottom: 4rem;
+}
+
+.blog-sidebar-title {
+    padding: 2rem 1rem;
+    background: #eff7ff;
+}
+
+.blog-category li {
+    border-top: 1px solid #eff7ff;
+    padding: 1rem 1rem;
+}
+.blog-category li a {
+    display: flex;
+    font-size: 1.6rem;
+    font-family: 'Jost', sans-serif;
+    color: #3a3a3a;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.blog-category li a span:last-child {
+    width: 30px;
+    height: 30px;
+    background: #3399ff;
+    color: #fff;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.blog-tags {
+    padding: 1rem;
+}
+
+.blog-tags li {
+    background: #39f;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 5px 8px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+.blog-tags li a {
+    display: block;
+    color: #fff;
+}
+
+.blog-tags li a span:last-child {
+    background: #e8f0fe;
+    color: #39f;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+.blog-content > a {
+    font-size: 2.5rem;
+    color: #2d4059;
+    font-weight: 600;
+}
+.blog-content > p {
+    font-size: 1.7rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+a.blog-details-btn {
+    background: #39f;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top:  !important ;
+}
+.preview-wrap a {
+    position: absolute;
+    top: 0;
+    background: #2d405e;
+    left: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 1.6rem;
+    border-radius: 0 0 2px 2px;
+    margin:5px;
+}
+
+.blog-content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    color: #2d4059;
+    font-size: 1.3rem;
+}
+
+.blog-statistic{
+    display: flex;
+}
+.blog-statistic li:first-child {
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+.carouselVideo .pop_up_item .videos-icon i{
+  color: #fff;
+  font-size: 25px;
+}
+
+.pop_up_item_img{
+    position: relative;
+}
+.pop_up_item_img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../img/front-end/hover.png);
+    background-repeat: no-repeat;
+
+}
+
+.pop_up_item .videos-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    height: 70px;
+    text-align: center;
+    width: 70px;
+    border:5px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.pop_up_items{
+     position: relative;
+    width: 100%;
+    height: 38vh;
+    background: url(../img/front-end/videos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 15px;
+}
+.pop_up_items::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #a9d4ff;
+    opacity: .5;
+    border-radius: 15px;
+}
+
+.pop_up_items .videos-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    height: 70px;
+    text-align: center;
+    width: 70px;
+    border:5px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+.carouselVideo .pop_up_items .videos-icon i{
+  color: #fff;
+  font-size: 25px;
+}
+

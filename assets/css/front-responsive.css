@@ -1,0 +1,239 @@
+@media only screen and (max-width: 1199px) {
+	.sec-title,
+	.why-us h2{
+		width: 100%;
+	}
+	.why-us p{
+		padding: 0;
+	}
+
+	.banner-content {
+	    width: 68%;
+	}
+	.features-single {
+	    padding: 0 0rem;
+	}
+
+	.title-widget-inner, .faq-area #accordion {
+	    width: 100%;
+	    margin: auto;
+	}
+	.page-title-inner {
+	    width: 70%;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+
+	
+}
+
+@media only screen and (max-width: 991px) {
+
+	#f-header {
+	    background-color: #fff;
+	    padding: 1rem !important;
+	}
+	#f-header #navbarSupportedContent>ul {
+	    align-items: center;
+	    padding: 3rem 0;
+	}
+
+	.navbar-toggler[aria-expanded="true"] .fa-bars{
+		display: none;
+	}
+	.navbar-toggler[aria-expanded="false"] .fa-bars{
+		display: block;
+	}
+	.navbar-toggler[aria-expanded="true"] .fa-times{
+		display: block;
+	}
+	.navbar-toggler[aria-expanded="false"] .fa-times{
+		display: none;
+	}
+	.navbar-toggler {
+	    width: 4.5rem;
+	    height: 4.5rem;
+	    background: #3399FF;
+	    color: #fff;
+	    border-radius: 100%;
+	    box-shadow: 0 1px 5px #39f;
+	}
+	.banner-content {
+	    width: 77%;
+	}
+
+	.why-us {
+	    padding: 4rem 4rem;
+	}
+	
+	.pricing-heading h2 {
+	    font-size: 4rem;
+	}
+	.pricing-single {
+	    margin-bottom: 2rem;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.banner-content {
+	    width: 100%;
+	}
+	.banner-content h2 {
+	    font-size: 5rem;
+	    font-weight: 600;
+	    line-height: 6.5rem;
+	}
+	.why-us {
+	    padding: 3rem 2rem;
+	}
+	.why-us h2 {
+	    font-size: 3rem;
+	}
+
+	.sec-title>h2, .features-area>h2 {
+	    font-size: 3rem;
+	}
+	.features-single {
+	    padding: 0px 10rem;
+	}
+	.testimonial-area {
+	    padding-bottom: 10rem;
+	}
+	.testimonial-area .owl-item.active.center {
+	    transform: scale(1);
+	    margin: 0;
+	}
+	.testimonial-video {
+	    margin-top: -10rem;
+	    padding-bottom: 8rem;
+	}
+	.video-carousel {
+	    width: 100%;
+	}
+	.testimonial-single-quote p {
+	    font-size: 2rem;
+	    line-height: 3.5rem;
+	}
+	.testimonial-carousel .owl-stage {
+	    margin-top: 0rem;
+	    padding-bottom: 0rem;
+	}
+	.features-single {
+	    padding: 0px 0rem;
+	}
+	.footer-single {
+	    margin-bottom: 3rem;
+	}
+
+	.contact-form .row {
+	    margin-bottom: 0;
+	}
+	.contact-form .row input {
+	    margin-bottom: 2rem;
+	}
+	.page-title {
+	    padding: 10rem 0 2rem 0;
+	}
+
+	.page-title-inner h2 {
+	    font-size: 3rem;
+	    letter-spacing: 0px;
+	    word-spacing: 0px;
+	}
+	.contact-form .custom-btn {
+	    margin-top: 2rem;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 580px) {
+	#f-header{
+		padding: 1rem 0 !important;
+	}
+	#f-header .navbar {
+	    padding: 0px;
+	}
+	.features-single {
+	    padding: 0px 12rem;
+	}
+	.testimonial-single-quote p {
+	    font-size: 1.8rem;
+	    line-height: 2.8rem;
+	}
+	.video-carousel {
+	    width: 85%;
+	}
+	.page-title-inner {
+	    width: 100%;
+	}
+
+	.page-title-inner p {
+	    font-size: 1.6rem;
+	    line-height: 2.5rem;
+	    margin-top: 0rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.features-single {
+	    padding: 0px;
+	}
+	.title-widget-inner>h2 {
+	    font-size: 3rem;
+    line-height: 4.5rem;
+	}
+	.banner-content h2 {
+	    font-size: 3rem;
+	    line-height: 4rem;
+	    padding: 0 6rem;
+	}
+	.banner-area {
+	    padding-top: 13rem;
+	}
+	.banner-content p {
+	    padding: 0 4rem;
+	    font-size: 1.6rem;
+	}
+
+	.title-widget {
+	    padding: 5rem 0;
+	}
+
+	.title-widget-inner>p {
+	    font-size: 2rem;
+	    margin: 1rem 0 2rem;
+	}
+
+	.navbar-nav .nav-link.custom-btn, .custom-btn {
+	    padding: .8rem 2rem;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	.banner-content h2 {
+	    padding: 0;
+	}
+	.banner-content p {
+	    padding: 0 2rem;
+	}
+	#accordion .card-header h5, #accordion .card-body {
+	    padding: 1.5rem;
+	}
+}
+@media only screen and (max-width: 410px) {
+
+	.banner-content p {
+	    padding: 0 0rem;
+	}
+}
